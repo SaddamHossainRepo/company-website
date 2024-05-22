@@ -1,0 +1,57 @@
+@font-face {
+    font-family: rota-bold;
+    src: url('./fonts/Rota/Rota-Bold.otf');
+}
+@font-face {
+    font-family: rota-Exrabold;
+    src: url('./fonts/Rota/Rota-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: rota-light;
+    src: url('./fonts/Rota/Rota-Light.otf');
+}
+@font-face {
+    font-family: rota-medium;
+    src: url('./fonts/Rota/Rota-Medium.otf');
+}
+
+@font-face {
+    font-family: ethos-nova-medium;
+    src: url('./fonts/ethos-nova/EthosNova-Medium.otf');
+}
+@font-face {
+    font-family: ethos-nova-regular;
+    src: url('./fonts/ethos-nova/EthosNova-Regular.otf');
+}
+@font-face {
+    font-family: ethos-nova-thin;
+    src: url('./fonts/ethos-nova/EthosNova-Thin.otf');
+}
+
+
+
+.ethos-nova-medium{
+    font-family: ethos-nova-medium;
+}
+.ethos-nova-regular{
+    font-family: ethos-nova-regular;
+}
+.ethos-nova-thin{
+    font-family: ethos-nova-thin;
+}
+
+
+.rota-bold{
+    font-family: rota-bold;
+}
+.rota-light{
+    font-family: rota-light;
+}
+.rota-medium{
+    font-family: rota-medium;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

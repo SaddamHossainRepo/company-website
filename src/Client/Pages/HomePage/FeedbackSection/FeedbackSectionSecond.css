@@ -1,0 +1,41 @@
+.singleFeedback:hover {
+    background-image: url("../../../../images/feedBack/feedback-bg.png");
+    display: flex;
+  }
+
+@media (min-width: 391px) and (max-width: 1440px) {
+  .feedback-div{
+    display: flex;
+  }
+    /* .feedback-card:hover {
+    background-image: url("../../../../images/feedBack/feedback-bg.png");
+  } */
+  .singleFeedback {
+    background-image: url("../../../../images/feedBack/feedback-bg.png");
+    display: flex;
+  }
+  .feedback-title {
+    font-size: large;
+  }
+  /* .feedback-div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-image: url("../");
+  } */
+}
+
+/* mobile device */
+@media screen and (max-width: 390px) {
+  .feedback-card {
+    width: 274px;
+    height: 271px;
+  }
+  .feedback-card:hover {
+    background-image: url("../../../../images/feedBack/feedback-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 274px;
+    height: 271px;
+  }
+}

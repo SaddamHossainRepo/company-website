@@ -1,0 +1,83 @@
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-light;
+  src: url("../../../../fonts/Rota/Rota-Light.otf");
+}
+@font-face {
+  font-family: rota-medium;
+  src: url("../../../../fonts/Rota/Rota-Medium.otf");
+}
+
+.rota-bold {
+  font-family: rota-bold;
+}
+.rota-light {
+  font-family: rota-light;
+}
+.rota-medium {
+  font-family: rota-medium;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 390px) {
+  .title{
+    font-size: 30px;
+  }
+  .our-client{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  /* .clientSection-div {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start; */
+    
+    /* width: 390px; */
+    /* height: 5663px; */
+    /* border: 2px solid red; */
+  /* } */
+  /* .client-section-title {
+    border: 2px solid green;
+    font-size: 10px;
+    margin-left: -200px;
+    padding-bottom: 25px;
+    padding-left: -190px;
+    
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: start;
+  } */
+  /* .clients-logo img{
+    padding-bottom: 25px;
+    width: 150px;
+    padding-left: 25px;
+    height: 263px;
+    border: 2px solid green;
+  } */
+  
+}
+
+/* LAPTOP RESPONSIVE */
+
+@media (min-width: 391px) and (max-width: 1440px) {
+  .clientSection-div {
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 250px;
+    font-size: 60px;
+  }
+  .clients-logo img {
+    width: 632px;
+  }
+}

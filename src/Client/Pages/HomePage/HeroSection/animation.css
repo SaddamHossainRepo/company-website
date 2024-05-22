@@ -1,0 +1,88 @@
+/* Common styles outside media queries */
+
+/* Mobile Styles (up to 767px) */
+@media only screen and (max-width: 767px) {
+  @keyframes mobileSlide {
+    0%, 100% {
+      transform: translateY(-0px);
+    }
+    25% {
+      transform: translateY(-30px); /* Adjusted for mobile */
+    }
+    50% {
+      transform: translateY(-70px); /* Adjusted for mobile */
+    }
+    75% {
+      transform: translateY(-110px); /* Adjusted for mobile */
+    }
+  }
+
+  .mobileSlide {
+    animation: mobileSlide 5s alternate infinite;
+  }
+}
+
+/* Tablet Styles (768px to 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  @keyframes tabletSlide {
+    /* Your tablet-specific keyframes go here */
+  }
+
+  .slide {
+    animation: tabletSlide 5s alternate infinite;
+  }
+}
+
+/* Desktop Styles (1024px to 1279px) */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  @keyframes desktopSlide {
+    /* Your desktop-specific keyframes go here */
+  }
+
+  .slide {
+    animation: desktopSlide 5s alternate infinite;
+  }
+}
+
+/* Large Desktop Styles (1280px and above) */
+@media only screen and (min-width: 1280px) {
+  @keyframes largeDesktopSlide {
+    0%, 100% {
+      transform: translateY(-0px);
+    }
+    25% {
+      transform: translateY(-110px); /* Adjusted for mobile */
+    }
+    50% {
+      transform: translateY(-220px); /* Adjusted for mobile */
+    }
+    75% {
+      transform: translateY(-330px); /* Adjusted for mobile */
+    }
+  }
+
+  .largeDesktopSlide {
+    animation: largeDesktopSlide 5s alternate infinite;
+  }
+}
+/* Large Desktop Styles (1280px and above) */
+@media only screen and (min-width: 1536px) {
+  @keyframes extraLargeDesktopSlide {
+    0%, 100% {
+      transform: translateY(-0px);
+    }
+    25% {
+      transform: translateY(-130px); 
+    }
+    50% {
+      transform: translateY(-280px); 
+    }
+    75% {
+      transform: translateY(-430px);
+    }
+  }
+
+  .extraLargeDesktopSlide {
+    animation: extraLargeDesktopSlide 5s alternate infinite;
+  }
+}

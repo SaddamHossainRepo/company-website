@@ -1,0 +1,47 @@
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-light;
+  src: url("../../../../fonts/Rota/Rota-Light.otf");
+}
+@font-face {
+  font-family: rota-medium;
+  src: url("../../../../fonts/Rota/Rota-Medium.otf");
+}
+
+.rota-bold {
+  font-family: rota-bold;
+}
+.rota-light {
+  font-family: rota-light;
+}
+.rota-medium {
+  font-family: rota-medium;
+}
+
+
+
+
+
+/* LAPTOP RESPONSIVE */
+
+@media (min-width: 391px) and (max-width: 1440px) {
+  
+}
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 390px) {
+    .feedback:hover {
+      background-image: url("../../../../images/feedBack/feedback-bg.png");
+    }
+    .feedback {
+     
+    }
+  }

@@ -1,0 +1,121 @@
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-light;
+  src: url("../../../../fonts/Rota/Rota-Light.otf");
+}
+@font-face {
+  font-family: rota-medium;
+  src: url("../../../../fonts/Rota/Rota-Medium.otf");
+}
+@font-face {
+  font-family: ethos-nova-medium;
+  src: url("../../../../fonts/ethos-nova/EthosNova-Medium.otf");
+}
+@font-face {
+  font-family: ethos-nova-regular;
+  src: url("../../../../fonts/ethos-nova/EthosNova-Regular.otf");
+}
+
+.rota-bold {
+  font-family: rota-bold;
+}
+.rota-light {
+  font-family: rota-light;
+}
+.rota-medium {
+  font-family: rota-medium;
+}
+
+.ethos-nova-medium {
+  font-family: ethos-nova-medium;
+}
+.ethos-nova-regular {
+  font-family: ethos-nova-regular;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 390px) {
+  .footer-div {
+    padding-top: 102px;
+    padding-left: 20px;
+  }
+  .contact {
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+  .lets-talk {
+    padding-bottom: 0px;
+    margin-bottom: 0;
+  }
+  .lets-talk p {
+    font-size: 40px;
+  }
+  .arrow {
+    width: 30.427px;
+    height: 28.756px;
+    margin-top: -100px;
+  }
+  .copyright {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright-policy {
+    /* padding-top: 128px; */
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-size: 12px;
+  }
+  .copyright-icon {
+    margin-top: 27px;
+    gap: 16px;
+  }
+
+  .copyright-icon img {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+/* LAPTOP RESPONSIVE */
+
+@media (min-width: 391px) and (max-width: 1440px) {
+  .footer-div {
+    padding-left: 125px;
+    padding-right: 125px;
+  }
+  .contact {
+    /* background-color: greenyellow; */
+    font-size: 24px;
+  }
+  .lets-talk p {
+    font-size: 80px;
+  }
+  .arrow {
+    width: 30.427px;
+    height: 28.756px;
+    margin-top: -20px;
+  }
+  .copyright-policy {
+    display: flex;
+    gap: 48px;
+  }
+
+  .copyright-policy p {
+    font-size: 17px;
+  }
+
+  .copyright-icon img {
+    height: 30px;
+    width: 30px;
+  }
+}

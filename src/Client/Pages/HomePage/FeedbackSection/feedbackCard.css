@@ -1,0 +1,30 @@
+.feedback:hover {
+  background-image: url("../../../../images/feedBack/feedback-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-clip: padding-box;
+  padding-left: 30px;
+}
+
+/* LAPTOP RESPONSIVE */
+
+@media (min-width: 391px) and (max-width: 1440px) {
+  .feedback:hover {
+    background-image: url("../../../../images/feedBack/feedback-bg.png");
+    background-size: cover;
+  }
+  .feedback {
+    width: 420px;
+    height: 587px;
+    padding-left: 30px;
+  }
+  .profile-name {
+    font-size: 20px;
+  }
+  .feedback-message {
+    font-size: 22px;
+  }
+  .position {
+    font-size: 12px;
+  }
+}

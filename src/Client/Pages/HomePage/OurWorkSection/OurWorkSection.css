@@ -1,0 +1,227 @@
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-medium;
+  src: url("../../../../fonts/Rota/Rota-Medium.otf");
+}
+@font-face {
+  font-family: rota-light;
+  src: url("../../../../fonts/Rota/Rota-Light.otf");
+}
+@font-face {
+  font-family: rota-regular;
+  src: url("../../../../fonts/Rota/Rota-Regular.otf");
+}
+
+@font-face {
+  font-family: ethos-nova-medium;
+  src: url("../../../../fonts/ethos-nova/EthosNova-Medium.otf");
+}
+@font-face {
+  font-family: ethos-nova-regular;
+  src: url("../../../../fonts/ethos-nova/EthosNova-Regular.otf");
+}
+@font-face {
+  font-family: ethos-nova-regular;
+  src: url("../../../../fonts/ethos-nova/EthosNova-Light.otf");
+}
+
+.rota-bold {
+  font-family: rota-bold;
+}
+.rota-light {
+  font-family: rota-light;
+}
+.rota-medium {
+  font-family: rota-medium;
+}
+.rota-regular {
+  font-family: rota-regular;
+}
+.rota-medium {
+  font-family: rota-medium;
+}
+
+.ethos-nova-medium {
+  font-family: ethos-nova-medium;
+}
+.ethos-nova-regular {
+  font-family: ethos-nova-regular;
+}
+.ethos-nova-light {
+  font-family: ethos-nova-light;
+}
+
+.single-card {
+  background-image: url("../../../../images/ourwork/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.work-arrow {
+  position: relative;
+  left: 205px;
+  top: -19px;
+}
+
+.button {
+  border: 10px
+    linear-gradient(to right, rgba(168, 255, 87, 1), rgba(9, 229, 229, 1));
+  background-color: black !important;
+  /* border: 
+    linear-gradient(to right, rgba(168, 255, 87, 1), rgba(9, 229, 229, 1)) 1; */
+  /* border-image: linear-gradient(to right, rgba(168, 255, 87, 1), rgba(9, 229, 229, 1)) 1; */
+  color: #fff; /* Set text color to contrast with the background */
+  padding-left: 40px;
+  cursor: pointer;
+  transition: background-image 0.3s ease-in-out;
+}
+.work-list{
+  /* font-size: 30px !important; */
+}
+.work-list:hover {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #09e5e5 12.04%, #a8ff57 104.63%);
+  transition: background-position 0.3s ease-in-out;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+.our-work-label-1:hover,
+.our-work-label-2:hover,
+.our-work-label-3:hover {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #09e5e5 12.04%, #a8ff57 104.63%);
+  transition: background-position 0.3s ease-in-out;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 390px) {
+  .our-work {
+    padding-top: 120px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our-work-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .work-1 {
+    /* position: absolute; */
+    /* width: 349px; */
+    padding-bottom: 40px;
+    /* height: 390px; */
+    background-image: url("../../../../images/ourwork/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    /* width: fit-content; */
+  }
+  .work-2 {
+    /* position: absolute; */
+    /* width: 349px; */
+    padding-bottom: 40px;
+    /* height: 390px; */
+    background-image: url("../../../../images/ourwork/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+    /* width: fit-content; */
+  }
+  .work-3 {
+    /* position: absolute; */
+    /* width: 349px; */
+    padding-bottom: 40px;
+    /* height: 390px; */
+    background-image: url("../../../../images/ourwork/bg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+    /* width: fit-content; */
+  }
+
+  .tab-title-1 {
+    position: relative;
+    bottom: 130px;
+    border: 10px solid red;
+  }
+  .tab-title-2 {
+    position: relative;
+    bottom: 130px;
+    border: 10px solid red;
+  }
+  .tab-title-3 {
+    position: relative;
+    bottom: 130px;
+    border: 10px solid red;
+  }
+  .work-1,
+  .work-2,
+  .work-3 {
+    /* background-image: url("../../../../images/ourwork/bg1-mobile.png");
+    border: 2px solid blue;
+    margin-bottom: 200px;
+    background-size: contain;
+    width: full;
+    background-repeat: no-repeat; */
+  }
+  .single-card {
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  .aria-label {
+    width: 600px;
+    height: 200px;
+    color: red;
+    border: 2px solid grey;
+  }
+}
+
+/* RESPONSIVE LAPTOP */
+@media (min-width: 391px) and (max-width: 1440px) {
+  .our-work {
+    display: grid;
+    grid-template-columns: 1;
+  }
+  .work-card {
+    gap: 54px;
+  }
+  .single-card {
+    width: 257px;
+    height: 258px;
+  }
+  .card-name {
+    font-size: 32px;
+  }
+  .work-type {
+    font-size: 15px;
+  }
+  .button {
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 34px;
+  }
+
+  .work-arrow {
+    position: relative;
+    left: 140px;
+    top: -19px;
+  }
+}
+
+@media (max-width: 390px) {
+  .work-arrow {
+    position: relative;
+    left: 110px;
+    top: -15px;
+  }
+}

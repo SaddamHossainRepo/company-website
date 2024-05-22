@@ -1,0 +1,19 @@
+.text-color {
+    background: linear-gradient(270deg, #A8FF57 -22.16%, #09E5E5 118.56%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.round{
+   border-radius: 50% !important; 
+}
+
+.border-color{
+    /* border: 1px solid linear-gradient(270deg, #A8FF57 -22.16%, #09E5E5 118.56%) !important; */
+    /* border-image: linear-gradient(to left, #743ad5, #d53a9d); */
+    /* border-width: 1px;
+    border-color: linear-gradient(to left, #743ad5, #d53a9d); */
+    border: 1px solid linear-gradient(270deg, #A8FF57 -22.16%, #09E5E5 118.56%)
+    
+}

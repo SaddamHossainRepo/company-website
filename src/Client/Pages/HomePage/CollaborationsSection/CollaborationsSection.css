@@ -1,0 +1,107 @@
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-bold;
+  src: url("../../../../fonts/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: rota-light;
+  src: url("../../../../fonts/Rota/Rota-Light.otf");
+}
+@font-face {
+  font-family: rota-medium;
+  src: url("../../../../fonts/Rota/Rota-Medium.otf");
+}
+
+@font-face {
+  font-family: ethos-nova-medium;
+  src: url("../../../../fonts/ethos-nova/EthosNova-Medium.otf");
+}
+@font-face {
+  font-family: ethos-nova-regular;
+  src: url("../../../../fonts/ethos-nova/EthosNova-Regular.otf");
+}
+@font-face {
+  font-family: ethos-nova-thin;
+  src: url("../../../../fonts/ethos-nova/EthosNova-Thin.otf");
+}
+
+.ethos-nova-medium {
+  font-family: ethos-nova-medium;
+}
+.ethos-nova-regular {
+  font-family: ethos-nova-regular;
+}
+.ethos-nova-thin {
+  font-family: ethos-nova-thin;
+}
+
+.rota-bold {
+  font-family: rota-bold;
+}
+.rota-light {
+  font-family: rota-light;
+}
+.rota-medium {
+  font-family: rota-medium;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 390px) {
+  .collaborations-div {
+    margin-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 120px;
+    /* margin-top: 120px;
+    margin-bottom: 120px; */
+  }
+  .collaborations-title {
+    font-size: 30px;
+    padding-bottom: 34px;
+  }
+  .logo-1 {
+    width: 64.144px;
+    height: 16.95px;
+    margin-right: 30px;
+
+  }
+  .logo-2 {
+    width: 80.098px;
+    height: 15.147px;
+    margin-right: 30px;
+
+  }
+  .logo-3 {
+    width: 50.85px;
+    height: 29.912px;
+    margin-right: 30px;
+  }
+  .logo-4 {
+    width: 66.803px;
+    height: 30.576px;
+    margin-right: 30px;
+  }
+  .logo-div-1{
+    gap: 0px;
+    /* width: 390px; */
+  }
+  /* .logo {
+    width: 100px;
+    height: 80px;
+  } */
+}
+
+/* LAPTOP RESPONSIVE */
+
+@media (min-width: 391px) and (max-width: 1440px) {
+  .collaborations-div {
+    padding-left: 123px;
+  }
+  .collaborations-title {
+    font-size: 60px;
+  }
+}
